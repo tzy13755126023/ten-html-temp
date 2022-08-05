@@ -1,0 +1,771 @@
+/*==============================================================================
+
+ * Template Name: Creatopo- Agency and Business HTML5 Template
+ * Author: ixtheme - (https://themeforest.net/user/theuxlab)
+ * Description: Agency and Business HTML5 Template
+ * Version: 1.0
+ * Copyright 2019 theuxlab
+
+ ==============================================================================*/
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (max-width: 1199px) {
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    padding: 25px 0;
+  }
+
+  .navigation-close,
+  .navigation-show {
+    display: block;
+  }
+
+  .navigation {
+    text-align: left;
+    position: fixed;
+    width: 100%;
+    max-width: 300px;
+    right: -300px;
+    background-color: #0c0a15;
+    background-image: url(../img/hero-home/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    top: 0;
+    height: 100%;
+    padding-top: 30px;
+    overflow-y: auto;
+    z-index: 9999;
+    box-shadow: 0 0 35px #7f838e;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .navigation.navigation_show {
+    right: 0;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .navigation ul li {
+    display: block;
+    font-size: 17px;
+    padding: 10px 15px;
+    color: #fff;
+  }
+
+  .dropWrap {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    width: auto;
+    padding: 0;
+    margin-top: 7px;
+    margin-bottom: -10px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    transition: 0s;
+    -webkit-transition: 0s;
+    -moz-transition: 0s;
+    -ms-transition: 0s;
+    -o-transition: 0s;
+    display: none;
+  }
+
+  .dropToggle:hover .dropWrap {
+    margin-top: 7px;
+    opacity: 1;
+  }
+
+  .dropToggle i {
+    font-size: 15px;
+    position: absolute;
+    top: 15px;
+    left: auto;
+    right: 15px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    display: block;
+  }
+
+  .dropToggle.show i {
+    transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    -o-transform: rotateX(180deg);
+  }
+
+  .navigation ul li:last-child {
+    margin-bottom: 50px;
+  }
+
+  .dropWrap li:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  .hero-info h2 {
+    font-size: 38px;
+  }
+
+  .hero-info p {
+    line-height: 28px;
+    margin-bottom: 40px;
+  }
+
+  .creatopo-btn {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 25px;
+    font-size: 15px;
+  }
+
+  .wrapper-header h3 {
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+
+  .wrapper-info p.mb-65 {
+    margin-bottom: 45px !important;
+  }
+
+  .service-item {
+    padding: 35px 45px;
+  }
+
+  .seervice-info h4 {
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
+
+  .seervice-info a {
+    margin-top: 20px;
+  }
+
+  .service-icon {
+    left: 45px;
+    top: 35px;
+  }
+
+  .award-item {
+    padding: 35px 30px;
+  }
+
+  .count-text {
+    font-size: 28px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+  }
+
+  .client-img {
+    position: static;
+  }
+
+  .client-item {
+    padding: 40px 24px;
+  }
+
+  .clients-bio {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  .clients-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .whycu-item p {
+    line-height: 30px;
+  }
+
+  .wrap-gap.pr-70 {
+    padding-right: 50px !important;
+  }
+
+  .wrap-gap.pl-70 {
+    padding-left: 50px !important;
+  }
+
+  .blog-info {
+    padding: 35px;
+  }
+
+  .blog-title {
+    line-height: 1.5;
+  }
+
+  .blog-item-text {
+    margin-top: 20px;
+    line-height: 1.7;
+  }
+
+  .blog-info .more {
+    margin-top: 20px;
+  }
+
+  .footer-about p {
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 30px;
+  }
+
+  .footer-about .logo {
+    width: 150px;
+    margin-bottom: 30px;
+  }
+
+  .footer-header {
+    font-size: 20px;
+  }
+
+  .footer-links li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .footer-img-group img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .whycu-wrapper::after {
+    height: 80%;
+    background-size: 400px;
+  }
+
+  .testimonials-carousel-2 .client-img {
+    height: 70px !important;
+    width: 70px !important;
+  }
+
+  .testimonials-wrapper-2 .clients-bio {
+    margin-left: 0 !important;
+    margin-top: 25px;
+  }
+
+  .pricing-tabs.nav-tabs .nav-link {
+    height: 45px;
+    line-height: 45px;
+    width: 120px;
+  }
+
+  .service-carousel-bullets, .blog-carousel-bullets {
+    margin-bottom: 40px;
+  }
+
+  .wrapper-header p {
+    margin-bottom: 20px;
+  }
+}
+
+/* Large devices (desktops, 991px and down) */
+
+@media (max-width: 991px) {
+
+  .hero-wrapper,
+  .wrapper {
+    padding: 100px 0;
+  }
+
+  .hero-info h2 {
+    line-height: 50px;
+  }
+
+  .hero-info h2 span {
+    line-height: 71px;
+  }
+
+  .wrapper-header h3 {
+    font-size: 28px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+
+  .wrapper-header p {
+    margin-bottom: 0;
+  }
+
+  .wrap-gap.pr-70 {
+    padding-right: 0 !important;
+  }
+
+  .wrap-gap.pl-70 {
+    padding-left: 0 !important;
+  }
+
+  .wrapper-info p {
+    line-height: 28px;
+  }
+
+  .wrapper-info p.mb-65 {
+    margin-bottom: 25px !important;
+  }
+
+  .wrapper-info p.mb-25 {
+    margin-bottom: 15px !important;
+  }
+
+  .services-wrapper::after {
+    height: 80%;
+    background-position: right bottom;
+  }
+
+  .services-wrapper .wrapper-info {
+    margin-bottom: 50px;
+  }
+
+  .wrapper.award-wrapper {
+    padding-bottom: 70px;
+  }
+
+  .award-item {
+    margin-bottom: 30px;
+  }
+
+  .footer-about {
+    margin-bottom: 50px;
+  }
+
+  .footer-wrapper::after {
+    display: none;
+  }
+
+  .hero-info h2 {
+    line-height: 30px;
+    font-size: 32px;
+  }
+
+  .blog-carousel-bullets,
+  .service-carousel-bullets {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  .testimonials-wrapper-2 .client-item {
+    padding: 40px 30px;
+  }
+
+  .footer-wrapper-2 {
+    padding-top: 100px;
+  }
+
+  .contact-form .input-field {
+    height: 50px;
+  }
+
+  .contact-form textarea.input-field {
+    padding: 20px;
+    margin-bottom: 45px;
+  }
+
+  .breadcrumb-wrapper {
+    background-position: left;
+  }
+
+  .pricing-wrapper::after {
+    display: none;
+  }
+
+  .case-study-sidebar {
+    margin-bottom: 50px;
+  }
+
+  .case-study-item-info p {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .case-study-item-info a {
+    margin-top: 25px;
+  }
+
+  .case-study-sidebar h2 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .blog-sidebar {
+    margin-top: 70px;
+  }
+
+  .pricing-tabs {
+    margin-bottom: 40px;
+  }
+ 
+  .about-img {
+    margin-bottom: 50px;
+  }
+
+  .about-img.top-gap {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
+  .whycu-img,
+  .video-warp-img,
+  .contact-img {
+    margin-bottom: 50px;
+  }
+}
+
+/* Medium devices (tablets, 768px and down) */
+
+@media (max-width: 767px) {
+
+  .whycu-wrapper::after {
+    height: 40%;
+    background-size: 300px;
+  }
+
+  .hero-img,
+  .footer-header {
+    margin-top: 50px;
+  }
+
+  .whycu-item img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .case-study-img.mt-0 {
+    margin-top: 50px !important;
+  }
+
+  .pricing-item {
+    padding: 40px 30px;
+    margin-top: 30px;
+  }
+
+  .pricing-item h3 {
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+
+  .case-study-item-img {
+    margin-bottom: 35px;
+  }
+
+  .wrap-gap.pr70 .blog-post-img {
+    margin-bottom: 35px;
+  }
+
+  .blog-post-wrapper .border-wrap .social {
+    text-align: left;
+    margin-top: 12px;
+  }
+
+  .person-bio p {
+    margin-top: 15px;
+  }
+
+  .blog-post-comment-heading {
+    margin-bottom: 40px;
+  }
+
+  .blog-sidebar form input {
+    height: 60px;
+    width: calc(100% - 60px);
+  }
+
+  .blog-sidebar form button {
+    height: 60px;
+    width: 60px;
+  }
+
+  .blog-item img {
+    width: 100%;
+  }
+
+  .team-info h4 {
+    font-size: 21px;
+    margin-bottom: 10px;
+  }
+
+  .blog-post-title {
+    margin-top: 40px;
+  }
+
+  .blog-post-info {
+    margin-bottom: 30px;
+  }
+
+  .blog-post-text.mb-40,
+  .row.align-items-center.mb-40 {
+    margin-bottom: 30px !important;
+  }
+
+  .img-group-item {
+    width: auto;
+  }
+
+  .case-study-item-pop {
+    margin-top: 10px;
+  }
+
+  .case-study-item-pop h4 {
+    font-weight: 500;
+  }
+
+  .case-study-item-img img {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .case-study-item-info p,
+  .case-study-item-info a {
+    margin-top: 15px;
+  }
+  
+  .case-study-item {
+    margin-bottom: 40px;
+  }
+
+  .footer-header {
+    margin-bottom: 25px;
+  }
+
+  .owl-dots {
+    margin-top: 30px;
+  }
+
+  .case-study-wrapper-2 .col-md-12.text-center.mt-25 {
+    margin-top: 15px !important;
+  }
+}
+
+/* Small devices (mobile, 575px and down) */
+@media (max-width: 575px) {
+  .wrapper {
+    padding: 70px 0;
+  }
+
+  .hero-wrapper {
+    padding: 70px 0;
+  }
+
+  .hero-wrapper.breadcrumb-wrapper {
+    padding: 100px 0;
+  }
+
+  .hero-info {
+    text-align: center;
+  }
+
+  .creatopo-btn {
+    height: 42px;
+    line-height: 42px;
+    padding: 0 20px;
+    font-size: 14px;
+  }
+
+  .whycu-wrapper::after {
+    display: none;
+  }
+
+  .footer-wrapper {
+    padding: 70px 0;
+  }
+
+  .service-item {
+    padding: 30px 35px;
+  }
+
+  .service-icon {
+    left: 35px;
+    top: 30px;
+  }
+
+  .award-item {
+    text-align: center;
+  }
+
+  .award-img {
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .scrollUp {
+    height: 40px;
+    width: 40px;
+    right: 15px;
+  }
+
+  .scrollUp.show {
+    bottom: 58px;
+  }
+
+  .scrollUp span {
+    line-height: 40px;
+  }
+
+  .scrollUp:hover span:first-child {
+    margin-top: -40px;
+  }
+
+  .pricing-tabs.nav-tabs .nav-link {
+    height: 42px;
+    line-height: 42px;
+    width: initial;
+    padding: 0 19px;
+  }
+
+  .pricing-feature img {
+    margin-right: 10px;
+  }
+
+  .breadcrumb-info h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+
+  .blog-post-comment {
+    margin-top: 60px;
+  }
+
+  .blog-post-comment-item img {
+    position: static;
+    margin-bottom: 20px;
+  }
+
+  .person-bio {
+    margin-left: 0;
+  }
+
+  .sidebar-post li img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .video-pop {
+    height: 50px;
+    width: 50px;
+  }
+
+  .video-pop span {
+    line-height: 50px;
+    font-size: 20px;
+  }
+
+  .blog-sidebar form input,
+  .blog-sidebar form button {
+    height: 50px;
+  }
+
+  .whycu-item {
+    padding-left: 60px;
+  }
+
+  .whycu-item img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* extraSmall devices ( 400px and down) */
+@media (max-width: 400px) {
+
+  .case-study-wrapper-2 .zoom-gallery .col-6 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .hero-img {
+    margin-top: 35px;
+  }
+
+  .video-warp-img,
+  .about-img,
+  .whycu-img {
+    margin-bottom: 35px;
+  }
+
+  .about-img.top-gap {
+    margin-top: 35px;
+    margin-bottom: 0;
+  }
+
+  .case-study-img.mt-0 {
+    margin-top: 35px !important;
+  }
+
+  .wrapper-header h3 {
+    margin-top: 15px;
+  }
+
+  .award-wrapper .col-6 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .service-icon {
+    position: static;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 25px;
+  }
+
+  .seervice-info {
+    margin-left: 0;
+  }
+
+  .footer-img-group img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .hero-info h2 {
+    margin-bottom: 30px;
+  }
+
+  .hero-info p {
+    margin-bottom: 35px;
+  }
+
+  .team-wrapper .col-8 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .creatopo-pagination li:first-child,
+  .creatopo-pagination li:last-child {
+    display: block;
+  }
+
+  .creatopo-pagination li:first-child {
+    margin-bottom: 15px;
+  }
+
+  .creatopo-pagination li:last-child {
+    margin-top: 15px;
+  }
+
+  .creatopo-pagination li:first-child a,
+  .creatopo-pagination li:last-child a {
+    display: inline-block;
+    padding: 0 30px;
+  }
+}

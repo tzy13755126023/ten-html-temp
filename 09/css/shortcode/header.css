@@ -1,0 +1,704 @@
+/*-----------------------------------------------------------------------------------
+  Template Name: Ramble Travel HTML Template.
+  Template URI: #
+  Description: Ramble is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
+  Author: HasTech
+  Author URI: https://themeforest.net/user/hastech/portfolio
+  Version: 1.0
+-------------------------------------------------------------------------------------*/
+/*
+  font-family: 'Open Sans', sans-serif;
+*/
+/*----------------------------------------
+  Menu basic style
+------------------------------------------*/
+.header{
+  z-index: 10;
+  position: relative;
+}
+ul.main__menu {
+  justify-content: center;
+  display: -webkit-box; 
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex; 
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.main__menu > li > a {
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 20px;
+  position: relative;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+.main__menu li {
+  position: relative;
+}
+.main__menu li.active a{
+  background: #ffb300;
+  color: #fff;
+}
+.main__menu > li:hover > a, 
+.main__menu > li:focus > a, 
+.main__menu > li:active > a, 
+.main__menu > li.current > a{
+  color: #ffb300;
+}
+.logo a{
+  display: block;
+}
+header.header{
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 99999;
+}
+/*----------------------------
+  Header Top
+--------------------------*/
+header.header {
+  padding-left: 79px;
+  padding-right: 83px;
+}
+.header__top {
+    border-bottom: 1px solid #909090;
+    height: 60px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    
+}
+.header__top__left {
+    display: flex;
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+}
+.header__top__left p {
+    color: #fff;
+    font-size: 13px;
+}
+.header__top__left p a {
+    color: #fff;
+}
+.header__top__left p + p {
+    margin-left: 60px;
+}
+.header__top__left p span {
+    margin-right: 15px;
+}
+.logo {
+    height: 120px;
+    line-height: 120px;
+}
+
+.social__icon {
+  display: -webkit-box; 
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex; 
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 120px;
+  justify-content: flex-end;
+}
+.social__icon li a i {
+    color: #cccccc;
+    font-size: 18px;
+    transition: all 0.3s ease 0s;
+}
+.social__icon li + li {
+    padding-left: 30px;
+}
+.social__icon li a:hover i {
+    color: #ffb300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------
+        Sticky  For  Header
+-------------------------------------------*/
+.sticky__header.scroll-header {
+  animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  box-shadow: 0 1px 3px rgba(50, 50, 50, 0.4);
+  left: 0;
+  margin: 0 auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 99999999;
+}
+
+.sticky__header.scroll-header .header__top {
+    display: none;
+}
+.sticky__header.scroll-header .main__menu > li > a {
+    height: 75px;
+    line-height: 75px;
+}
+.sticky__header.scroll-header .logo {
+    height: 70px;
+    line-height: 70px;
+}
+.sticky__header.scroll-header .social__icon.icon--position {
+    height: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.fluid-container.mobile-menu-container {
+  position: relative;
+}
+.mobile-logo {
+  display: -webkit-box; 
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex; 
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 52px;
+  left: 0;
+  padding-left: 15px;
+  position: absolute;
+  top: 0;
+  z-index: 2147483647;
+}
+.mobile-logo img {
+  max-height: 25px;
+}
+
+.transparent--header{
+  left: 0;
+  position: absolute;
+  top: 110px;
+  width: 100%;
+  z-index: 99999;
+}
+
+
+
+
+
+
+/*-------------------------------------------------
+  Dropdown Menu
+----------------------------------------------------*/
+.main__menu li.drop{
+    position: relative;
+}
+.main__menu li.drop ul.dropdown {
+  background: #ffffff none repeat scroll 0 0;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+  top: 120%;
+  transition: all 0.2s ease-in-out 0s;
+  visibility: hidden;
+  width: 220px;
+  z-index: 999;
+}
+.scroll-header .main__menu li.drop ul.dropdown {
+  top: 120%;
+}
+.scroll-header .main__menu li.drop:hover ul.dropdown {
+  top: 100%;
+}
+.main__menu li.drop:hover ul.dropdown {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+.main__menu ul.dropdown li {
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+}
+.main__menu ul.dropdown li a {
+  background: #ffffff none repeat scroll 0 0;
+  color: #999999;
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out 0s;
+  padding: 12px 20px 12px 25px;
+  transition: 0.3s;
+}
+
+.main__menu li.drop ul.dropdown li:hover > a {
+    background: #fafafa none repeat scroll 0 0;
+    color: #222222;
+}
+/*-----------------------------------------
+      SUB MENU
+---------------------------------------*/
+.main__menu li.drop ul.dropdown li.drop::after {
+  color: #999;
+  content: "";
+  font-family: "Material-Design-Iconic-Font";
+  font-size: 13px;
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  transition: all 0.2s ease-in-out 0s;
+}
+.main__menu li.drop ul.dropdown li.drop{
+  position: relative;
+}
+.main__menu li.drop ul.dropdown li.drop ul.dropdown.smright {
+  border: medium none;
+  right: 100%;
+  top: 0;
+  transition: all 0.3s ease 0s;
+}
+.main__menu li.drop ul.dropdown li.drop ul.dropdown.level2 {
+  border: medium none;
+  left: 100%;
+  top: 20%;
+  transition: all 0.3s ease 0s;
+}
+.main__menu li.drop ul.dropdown li.drop ul.dropdown.level2 {
+    opacity: 0;
+    visibility: hidden;
+}
+.main__menu li.drop ul.dropdown li.drop:hover ul.dropdown.level2 {
+    opacity: 1;
+    visibility: visible;
+    top: 0;
+}
+.main__menu li.drop ul.dropdown li.drop ul.dropdown.smright {
+    opacity: 0;
+    visibility: hidden;
+}
+.main__menu li.drop ul.dropdown li.drop ul.dropdown.smright {
+  background: #ffffff none repeat scroll 0 0;
+  left: -100%;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+  top: 20%;
+  transition: all 0.3s ease-in-out 0s;
+  visibility: hidden;
+  width: 220px;
+  z-index: 999;
+}
+.main__menu li.drop ul.dropdown li.drop:hover ul.dropdown.smright {
+  left: -100%;
+  opacity: 1;
+  visibility: visible;
+  top: 0;
+}
+.theme-color .cd-words-wrapper {
+  padding: 0px !important;
+}
+
+.main__menu li ul li {
+    margin: 0;
+}
+.main__menu li ul li:first-child {
+    margin: 0;
+}
+/*-----------------------------------------------
+      Toggle Log In
+-------------------------------------------------*/
+.login__regester li a {
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+.login__regester li a:hover{
+  color: #ffb300;
+}
+.login__regester {
+    display: flex;
+}
+
+.login__regester li + li {
+    margin-left: 24px;
+}
+.login__regester li a i {
+    font-size: 13px;
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------
+      Toggle Regester
+-------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------
+      Toggle Menu Search
+-------------------------------------------------*/
+.icon-reorder::before {
+  content: "";
+  font-family: Material-Design-Iconic-Font;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+.htc__toggle__search {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -15px;
+}
+.cart__search__list li + li {
+    margin-left: 40px;
+}
+.cart__search__list li {
+    position: relative;
+}
+.badge--cart {
+    background: #ffb300 none repeat scroll 0 0;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 10px;
+    height: 15px;
+    line-height: 15px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -6px;
+    width: 15px;
+}
+.cart__search__list li a i {
+    color: #606060;
+    font-size: 24px;
+}
+.search-dropdown {
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 120%;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+}
+li.search__open:hover .search-dropdown {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+}
+.input-outer input[type="text"],
+.input-outer input[type="email"],
+.input-outer input[type="password"] {
+  border: 1px solid #ddd;
+  color: #606060;
+  padding: 0 20px;
+  width: 200px;
+}
+.toggle-menu i {
+  cursor: pointer;
+  font-size: 24px;
+}
+.toggle-wrap {
+    display: flex;
+}
+.toggle-dropdown-menu li h4.megamenu__subtitle span {
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 3px;
+    padding-bottom: 16px;
+    position: relative;
+    text-transform: capitalize;
+}
+.toggle-dropdown-menu li h4.megamenu__subtitle span::before {
+    background: #ffb300 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.toggle-dropdown-menu li a {
+  color: #444;
+  display: block;
+  font-size: 15px;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 10px;
+  text-transform: capitalize;
+}
+.toggle-dropdown-menu li {
+    border-bottom: 1px solid #f1f1f1;
+}
+.site-info-wrap{
+    width: 870px;
+}
+.toggle-dropdown-menu {
+    padding: 20px 20px 0;
+    width: 34%;
+}
+.toggle-wrap ul + ul {
+    margin-left: 30px;
+}
+.toggle-dropdown-menu li:last-child {
+    border-bottom: 1px solid transparent;
+}
+.toggle-dropdown-menu li:first-child {
+    border-bottom: 1px solid transparent;
+}
+.toggle-dropdown-menu li:hover a {
+  background: #f7f7f7 none repeat scroll 0 0;
+}
+.toggle-dropdown-menu li{
+    display: block;
+}
+.toggle-dropdown-menu li a img {
+    margin-right: 10px;
+}
+/*--------------------------------------
+      New code
+--------------------------------------*/
+.site-info-wrap {
+  background: #fff none repeat scroll 0 0;
+  border-top: 1px solid #f1f1f1;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.08);
+  display: none;
+  padding: 30px;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 999;
+}
+.site-info-wrap p {
+    margin-bottom: 20px;
+}
+.header__wrap .col-md-1 {
+    position: initial;
+}
+.header__wrap {
+  background: #fff none repeat scroll 0 0;
+  position: relative;
+}
+em.color.main-font {
+    color: #ffb300;
+    font-size: 18px;
+}
+.li-col-full {
+    padding-left: 18px;
+}
+/*-------------------------------------
+      Search area
+-----------------------------------------*/
+.search__area{
+  background: #bea87d none repeat scroll 0 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transform: translateY(-200%);
+  transition: all 300ms ease 0s;
+  z-index: 2147483647;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.08);
+}
+.search__area .search__inner{
+  position: relative;
+}
+.search__area .search__inner form {
+  margin: 4em 0;
+  padding: 0 40px 0 0;
+  position: relative;
+  text-align: center;
+}
+.search__area .search__inner form input[type="text"] {
+  background: #fff none repeat scroll 0 0;
+  border: medium none;
+  color: #333;
+  font-size: 25px;
+  font-weight: 300;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 70px 0 20px;
+  text-align: left;
+}
+.search__area .search__inner form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #333;
+}
+.search__area .search__inner form input::-moz-placeholder { /* Firefox 19+ */
+  color: #333;
+}
+.search__area .search__inner form input:-ms-input-placeholder { /* IE 10+ */
+  color: #333;
+}
+.search__area .search__inner form input:-moz-placeholder { /* Firefox 18- */
+  color: #333;
+}
+.search__area .search__inner form button::before {
+  color: #333;
+  content: "\f1c3";
+  display: block;
+  font-family: "Material-Design-Iconic-Font";
+  font-size: 21px;
+  transition: color 300ms ease 0s;
+}
+.search__area .search__inner form button {
+  background: transparent none repeat scroll 0 0;
+  border: 0 none;
+  border-radius: 0;
+  cursor: pointer;
+  height: 60px;
+  line-height: 60px;
+  position: absolute;
+  right: 40px;
+  top: 0;
+  width: 60px;
+  transition: 0.3s;
+}
+.search__area .search__inner form button:hover {
+  background: #ffb300 none repeat scroll 0 0;
+}
+.search__area .search__inner form button:hover::before {
+  color: #fff;
+}
+.search__area .search__inner .search__close__btn {
+  cursor: pointer;
+  display: block;
+  font-size: 1.5em;
+  line-height: 58px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.search__close__btn .search__close__btn_icon i {
+    transition: all 0.3s ease 0s;
+    transform: scale(1) rotate(0deg);
+}
+.search__close__btn .search__close__btn_icon:hover i {
+    transform: scale(1.5) rotate(180deg);;
+    color: red;
+}
+.search__box__show__hide .search__area {
+  transform: translateY(0px);
+  transition: all 300ms ease 0s;
+}
+.cart__search ul.cart__search__list li a i {
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px;
+    transition: all 0.3s ease 0s;
+}
+.cart__search ul.cart__search__list li a:hover i{
+    background: #ffb300 none repeat scroll 0 0;
+}
+.cart__search__list li a:hover i {
+    color: #fff;
+    transition: 0.3s;
+}
+.toggle-menu:hover i {
+    color: #fff;
+}
+.toggle-menu:hover i {
+    background: #ffb300 none repeat scroll 0 0;
+    color: #fff;
+}
+.toggle-menu.active i{
+    background: #ffb300 none repeat scroll 0 0;
+    color: #fff;  
+}
+.toggle-menu i{
+    background: #fff none repeat scroll 0 0; 
+}
+.toggle-menu i {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  width: 63px;
+}
+.search.search__open a {
+    display: block;
+}
+
+
+
+
+
+
+
+

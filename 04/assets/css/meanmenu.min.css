@@ -1,0 +1,167 @@
+/*! #######################################################################
+
+	MeanMenu 2.0.7
+	--------
+
+	To be used with jquery.meanmenu.js by Chris Wharton (http://www.meanthemes.com/plugins/meanmenu/)
+
+####################################################################### */
+
+/* hide the link until viewport size is reached */
+a.meanmenu-reveal {
+	display: none;
+}
+
+/* when under viewport size, .mean-container is added to body */
+.mean-container .mean-bar {
+	float: left;
+	width: 100%;
+	position: relative;
+	background: #fff;
+	padding: 4px 0;
+	min-height: 42px;
+	z-index: 999999;
+}
+
+.mean-container a.meanmenu-reveal {
+	width: 25px;
+	height: 25px;
+	padding: 15px 0px 10px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+	color: #666;
+	text-decoration: none;
+	font-size: 16px;
+	text-indent: -9999em;
+	line-height: 22px;
+	font-size: 1px;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	-webkit-transition: all .3s ease-in-out 0s;
+	transition:all .3s ease-in-out 0s;
+}
+
+.mean-container a.meanmenu-reveal span {
+	display: block;
+	background: #fff;
+	height: 1px;
+	margin-top: 8px;
+}
+
+.mean-container .mean-nav {
+	float: left;
+	width: 100%;
+	background: #fff;
+	margin-top: 50px;
+}
+
+.mean-container .mean-nav ul {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	list-style-type: none;
+}
+
+.mean-container .mean-nav ul li {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.mean-container .mean-nav ul li a {
+	display: block;
+	float: left;
+	width: 90%;
+	padding: 1em 5%;
+	margin: 0;
+	text-align: left;
+	color: #666;
+	border-top: 1px solid rgba(255,255,255,0.1);
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.mean-container .mean-nav > ul > li:first-child > a {
+    border-top: 0px solid;
+}
+
+.mean-container .mean-nav ul li li a {
+	width: 80%;
+	padding: 1em 10%;
+	border-top: 1px solid #f1f1f1;
+	border-top: 1px solid rgba(255,255,255,0.25);
+	filter: alpha(opacity=75);
+	text-shadow: none !important;
+	visibility: visible;
+}
+
+.mean-container .mean-nav ul li.mean-last a {
+	border-bottom: none;
+	margin-bottom: 0;
+}
+
+.mean-container .mean-nav ul li li li a {
+	width: 70%;
+	padding: 1em 15%;
+}
+
+.mean-container .mean-nav ul li li li li a {
+	width: 60%;
+	padding: 1em 20%;
+}
+
+.mean-container .mean-nav ul li li li li li a {
+	width: 50%;
+	padding: 1em 25%;
+}
+
+.mean-container .mean-nav ul li a.mean-expand {
+	margin-top: 1px;
+	width: 26px;
+	height: 32px;
+	padding: 12px !important;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+	font-weight: 700;
+    border: 0px solid;
+}
+
+.mean-container .mean-push {
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	clear: both;
+}
+
+.mean-nav .wrapper {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+/* Fix for box sizing on Foundation Framework etc. */
+.mean-container .mean-bar, .mean-container .mean-bar * {
+	box-sizing: content-box;
+}
+.mean-remove {
+	display: none !important;
+}
+
+/*Mobile menu style*/
+.mobile-menu{
+	position: relative;
+}
+.mobile-logo {
+	position: absolute;
+	top: 14px;
+	z-index: 999999;
+	left: 0;
+	height: 100%;
+	display: block;
+	width: 50%;
+}

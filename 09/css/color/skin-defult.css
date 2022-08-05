@@ -1,0 +1,144 @@
+/*-----------------------------------------------------------------------------------
+
+
+    
+    NOTE: This is color stylesheet of Color Scheme.
+
+-----------------------------------------------------------------------------------*/
+
+
+
+/*************************
+		General
+*************************/
+
+
+/** selection **/
+
+*::-moz-selection {
+    background: #50C1F0;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #50C1F0;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #50C1F0;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+/** buttton **/
+
+
+/*************************
+		 button
+*************************/
+
+a.button {
+    background-color: #50C1F0;
+}
+
+a.button.button-white {
+    color: #50C1F0;
+}
+
+a.button.button-white i {
+    color: #50C1F0;
+}
+
+a.button.button-white span {
+    color: #50C1F0;
+}
+
+a.button.button-grey {
+    color: #50C1F0;
+}
+
+a.button.button-grey i {
+    color: #50C1F0;
+}
+
+a.button.button-grey span {
+    color: #50C1F0;
+}
+
+a.button.button-black {
+    color: #50C1F0;
+}
+
+a.button-border span {
+    color: #50C1F0;
+    border: 1px solid #50C1F0;
+}
+
+a.button-border span:hover {
+    border-color: #50C1F0;
+}
+
+a.button-border-white span:hover {
+    color: #50C1F0;
+}
+
+a.button-small {
+    background-color: #50C1F0;
+}
+
+.share .share-button {
+    background: #50C1F0;
+}
+
+a.button-border span:hover,
+.faq a.button-border span:hover,
+.careers-from .button-border span:hover,
+.login-2-social li a.fb:hover,
+.login-2-social li a.twitter:hover,
+.login-2-social li a.pinterest:hover {
+    box-shadow: -400px 0 0 #50C1F0 inset;
+}
+
+
+/** tooltip **/
+
+.socile-icon-tooltip .tooltip:after,
+.socile-icon-tooltip [data-tooltip]:after {
+    background-color: #50C1F0;
+}
+
+.socile-icon-tooltip .tooltip:before,
+.tooltip-top:before {
+    border-color: #50C1F0;
+}
+
+.socile-icon-tooltip [data-tooltip]:before,
+.tooltip::before,
+.socile-icon-tooltip .tooltip-top::before {
+    border-top-color: #50C1F0;
+}
+
+
+/*Home page background*/
+
+.separator::before,
+.social-icon ul li a
+ {
+    background: #50C1F0;
+}
+
+
+/*************************
+		 Color
+*************************/
+
+
+/** Color **/
+
+a:hover, a,  .separator i, button{
+    color: #50C1F0;
+}

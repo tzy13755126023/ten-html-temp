@@ -1,0 +1,1061 @@
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Ramble Travel HTML Template.
+  Template URI: #
+  Description: Ramble is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
+  Author: HasTech
+  Author URI: https://themeforest.net/user/hastech/portfolio
+  Version: 1.0
+
+-----------------------------------------------------------------------------------*/
+
+
+@media (min-width: 1170px) and (max-width: 1366px){
+
+header.header {
+  padding-left: 19px;
+  padding-right: 24px;
+}
+.welcome__inner h2 {
+  margin-bottom: 19px;
+}
+.welcome__inner p + p {
+  margin-top: 8px;
+}
+.social--bg--color {
+  margin-top: 26px;
+}
+.welcome__inner {
+  padding: 46px 0;
+}
+.service__images {
+  right: -21%;
+}
+.service__images img {
+  width: 63%;
+}
+.welcome__images {
+  width: 47%;
+}
+
+
+}
+
+
+@media (min-width: 1170px) and (max-width: 1850px){
+  .service-images{
+    display: block;
+  }
+  .service__feature_images{
+    display: none;
+  }
+}
+
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+
+.md--ptb--50{
+  padding: 50px 0;
+}
+.social__icon li + li {
+  padding-left: 15px;
+}
+header.header {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.main__menu > li > a {
+  font-size: 13px;
+  padding: 0 12px;
+}
+.header__top__left p + p {
+  margin-left: 15px;
+}
+.header__top__left p {
+  font-size: 12px;
+}
+.header__top__left p span {
+  margin-right: 5px;
+}
+.login__regester li + li {
+  margin-left: 5px;
+}
+.login__regester li a i {
+  font-size: 12px;
+  margin-right: 8px;
+}
+.single__option select,
+.btn__white ,
+.btn__search,
+.single__option input {
+  width: 150px;
+}
+.welcome__inner h2 {
+  margin-bottom: 14px;
+}
+.welcome__inner p + p {
+  margin-top: 6px;
+}
+.social--bg--color {
+  margin-top: 15px;
+}
+.count__down__inner h2 {
+  font-size: 37px;
+}
+.package__hover__inner h6 {
+  margin-bottom: 8px;
+}
+.package__hover__inner h4 {
+  margin-bottom: 9px;
+}
+.testimonial__carousel__active {
+  overflow: hidden;
+}
+.testimoaial__details p::before {
+  left: 68px;
+}
+
+.testimoaial__details p::after {
+  bottom: -7px;
+  right: 175px;
+}
+.blog__hover__information {
+  background: #333 none repeat scroll 0 0;
+  padding: 26px 17px 26px 28px;
+  position: static;
+  width: 100%;
+}
+.blog__hover__inner h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  margin-top: 12px;
+}
+
+.packages__hover__info {
+  bottom: 20px;
+}
+.address__details p {
+  font-size: 15px;
+}
+.bradcaump__inner {
+  padding-top: 99px;
+}
+.view-mode li a {
+  padding: 0 24px;
+}
+.contact-form-wrap {
+  right: 135px;
+  top: 28px;
+}
+.contact-form-wrap {
+  padding: 29px;
+}
+.single__tour__box.option--select select + select {
+  margin-left: 30px;
+}
+.tag_menu li {
+  width: 46.33%;
+}
+.overview__days {
+  padding-right: 84px;
+}
+.service__images {
+  padding-top: 20px;
+  position: inherit;
+  top: 100%;
+  transform: translateY(0px);
+}
+.welcome__inner {
+  padding: 49px 0;
+}
+.control__style--left .owl-dots {
+  left: 57px;
+  top: 75%;
+}
+.welcome__images {
+  width: 46%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+header.header {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.logo {
+  text-align: center;
+}
+.main__menu > li > a {
+  padding: 0 16px;
+}
+.slider__inner h2 {
+  font-size: 44px;
+  line-height: 63px;
+}
+.slider__container.full-screen {
+    height: auto;
+}
+.single__option select,
+.btn__white ,
+.btn__search,
+.single__option input {
+  width: 120px !important;
+}
+.btn__white,
+.single__option select,
+.btn__search {
+  font-size: 12px;
+}
+.single__option select {
+  padding-left: 8px;
+}
+.single__option select {
+  background: rgba(0, 0, 0, 0) url("../images/icons/select-option.png") no-repeat scroll 92% 22px / 10px 6px;
+}
+.select__option__inner {
+  padding: 0 38px;
+}
+[type="text"] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+[type="text"]:focus {
+  background: transparent;
+}
+.choose {
+  margin-top: 30px;
+}
+.sm-mt-20{
+  margin-top: 20px;
+}
+.sm-mt-30{
+  margin-top: 30px;
+}
+.sm-ptb-50{
+  padding: 50px 0;
+}
+.testimonial__carousel__active {
+  overflow: hidden;
+}
+.testimoaial__details p {
+  padding: 0 7%;
+}
+.testimoaial__details p::before {
+  left: 32px;
+}
+.testimoaial__details h4 {
+  margin-top: 21px;
+}
+.blog__hover__information {
+  background: #333 none repeat scroll 0 0;
+  padding: 25px 15px 25px 15px;
+  position: static;
+  width: 100%;
+}.blog__hover__inner h2 {
+  margin-bottom: 5px;
+  margin-top: 7px;
+}
+.brand__list {
+  align-items: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  height: 250px;
+  justify-content: space-around;
+}
+.brand__list li {
+  width: 33.33%;
+  text-align: center;
+}
+
+.contact {
+    margin-top: 30px;
+}
+.contact__wrap {
+    margin-top: -30px;
+}
+.sm--mt--40{
+  margin-top: 40px;
+}
+.newsletter__inner h4 {
+  font-size: 29px;
+  line-height: 45px;
+}
+.newsletter__inner {
+  display: block;
+  height: initial;
+  text-align: center;
+}
+.newsletter__wrap {
+  display: flex;
+  flex-flow: column wrap;
+  height: 300px;
+  justify-content: center;
+  vertical-align: middle;
+}
+.newsletter__inner h4 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.newsletter__inner input[type="text"], 
+.newsletter__inner input[type="email"], 
+.newsletter__inner input[type="password"] {
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+.news__letter__btn {
+  margin-top: 35px;
+}
+.contact__wrap {
+  margin-bottom: 100px;
+  margin-top: -30px;
+}
+.address__icon {
+  margin-bottom: 20px;
+  margin-right: 0;
+}
+.contact {
+  align-items: center;
+  display: block;
+  height: auto;
+  justify-content: center;
+  padding: 30px 0;
+  text-align: center;
+}
+.bradcaump__inner {
+  padding-top: 215px;
+}
+.view-mode li a {
+  padding: 0 68px;
+}
+.contact-form-wrap {
+  right: 0;
+  top: 30px;
+}
+.contact-form-wrap {
+  padding: 52px;
+}
+.contact-box input + input {
+  margin-left: 37px;
+}
+.slide__align--center {
+  padding-bottom: 113px;
+  padding-top: 182px;
+}
+.slide__align--center {
+  padding-bottom: 230px;
+  padding-top: 328px;
+}
+
+.slider__full--screen {
+  height: auto;
+}
+.footer__wrap {
+  display: flex;
+  flex-flow: row wrap;
+}
+.single__tour__box.option--select select + select {
+  margin-left: 21px;
+}
+.single__tour__box select {
+  -moz-appearance: none;
+  background: rgba(0, 0, 0, 0) url("images/tour-details/booking-table/shape-1.png") no-repeat scroll 91% 10px / 9px 17px !important;
+}
+.overview__days::before {
+  position: inherit;
+}
+.single__overview:hover::before {
+  transform: scale(0);
+}
+.overview__days {
+  padding-right: 44px;
+}
+.single__overview .overview__thumd {
+  padding-left: 16px;
+}
+
+.service__images {
+  padding-top: 20px;
+  position: inherit;
+  top: 100%;
+  transform: translateY(0px);
+}
+.welcome__inner {
+  padding: 38px 0;
+}
+.service__images {
+  padding-top: 20px;
+  position: inherit;
+  top: 100%;
+  transform: translateY(0px);
+}
+.welcome__inner {
+  padding: 38px 0;
+}
+.control__style--left .owl-dots {
+  left: 50px;
+  top: 74%;
+}
+.welcome__area .row {
+  display: inherit;
+}
+.welcome__inner {
+  padding: 38px 30px;
+}
+.blog-right-sidebar-bottom a {
+  padding: 9px 10px;
+}
+
+.welcome__images {
+  position: inherit;
+}
+div[style].wrapper.fixed-newslatter {
+  margin-bottom: 0 !important;
+}
+.fixed-newslatter .newsletter__area {
+  position: static;
+}
+
+
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  
+.container {width:300px}
+
+.xs--mt--100{
+  margin-top: 100px;
+}
+.xs--mt--40{
+  margin-top: 40px;
+}
+.xs--mt--20{
+  margin-top: 20px;
+}
+.xs--mt--10{
+  margin-top: 10px;
+}
+.xs--mt--30{
+  margin-top: 30px;
+}
+.tab__content__inner {
+  padding: 22px;
+}
+header.header {
+  padding-left: 0;
+  padding-right: 0;
+}
+.slide__align__center {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.slider__inner h2 {
+  font-size: 28px;
+  line-height: 36px;
+}
+.slider__inner h1 {
+  font-size: 40px;
+  line-height: 45px;
+  margin-top: 30px;
+}
+.slider__container.full-screen {
+    height: auto;
+}
+.slider__full--screen {
+  height: auto;
+}
+.slide__align--center {
+  padding-bottom: 80px;
+  padding-top: 135px;
+}
+
+.select__option__inner {
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+  padding: 20px 0;
+}
+.select__option__inner::before {
+  background: #000 none repeat scroll 0 0;
+  border-radius: 0;
+  opacity: 0.8;
+}
+.select__option__wrap {
+  position: relative;
+}
+.select__option__wrap {
+  background: #000 none repeat scroll 0 0;
+  padding: 80px 0;
+}
+
+.select__option__wrap {
+    background: #000 none repeat scroll 0 0;
+}
+.single__option {
+    width: 100%;
+}
+.select__option__inner .single__option + .single__option {
+    margin-top: 30px;
+}
+.single__option select, .btn__white, .btn__search {
+  width: 100%;
+}
+
+.count__down__inner h2 {
+  font-size: 28px;
+}
+.choose {
+  margin-top: 30px;
+}
+.service__details h4 {
+  font-size: 20px;
+  line-height: 27px;
+}
+.funfact__wrap {
+  flex-wrap: wrap;
+}
+.funfact__wrap .single__fact__flex:nth-child(n+3) {
+  margin-top: 40px;
+}
+
+.packages__hover__info {
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+}
+.bradcaump__inner {
+  padding-top: 58px;
+}
+.bradcaump-title {
+  font-size: 25px;
+}
+.count__down__inner h2 {
+  font-size: 24px;
+  line-height: 34px;
+}
+.count__down__inner h4 {
+  font-size: 23px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.count__down__inner h4 span {
+  font-size: 41px;
+  margin-left: 2px;
+}
+
+.team {
+  margin-top: 30px;
+}
+.team__details {
+  padding: 0;
+  top: 0;
+}
+.team:hover .team__thumb {
+  padding: 0;
+}
+.team:hover .team__details__inner {
+  box-shadow: none;
+}
+.social__icon.icon--position--center li + li {
+  padding-left: 28px;
+}
+.distanation__details.distanation--big--images--hover p span {
+  font-size: 36px;
+}
+.testimonial__carousel__active {
+  overflow: hidden;
+}
+.testimoaial__details p {
+  padding: 0;
+}
+.testimoaial__details p::after {
+  right: 13px;
+}
+.testimoaial__details p::before {
+  left: -6px;
+}
+.testimoaial__details h4 {
+  margin-top: 27px;
+}
+.testimoaial__details p {
+  margin-top: 28px;
+}
+.blog__hover__information {
+  width: 100%;
+}
+.blog__hover__inner p.time {
+  margin-bottom: 9px;
+}
+.blog__hover__inner h2 {
+  font-size: 18px;
+  margin-bottom: 7px;
+  margin-top: 4px;
+}
+.blog__like__comment {
+  margin-top: 8px;
+}
+.blog__hover__information::before {
+  opacity: 0.8;
+}
+
+
+.blog__hover__inner p {
+  line-height: 20px;
+}
+
+.brand__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 0;
+}
+.address__details p {
+  font-size: 14px;
+}
+
+.contact {
+    margin-top: 30px;
+}
+.contact__wrap {
+    margin-top: -30px;
+}
+.tag_menu li {
+  width: 49.33%;
+}
+.copyright__inner {
+  height: 82px;
+}
+
+/*newslatter*/
+.newsletter__inner {
+  display: block;
+  height: initial;
+  text-align: center;
+}
+.newsletter__wrap {
+  display: flex;
+  flex-flow: column wrap;
+  height: 300px;
+  justify-content: center;
+  vertical-align: middle;
+}
+.newsletter__inner h4 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.newsletter__inner input[type="text"], 
+.newsletter__inner input[type="email"], 
+.newsletter__inner input[type="password"] {
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+.news__letter__btn {
+  margin-top: 35px;
+}
+.single__option input[type="text"] {
+  width: 100%;
+}
+
+/* Service */
+.service .service__icon {
+  float: none;
+  margin: auto auto 20px;
+  text-align: center;
+}
+.service .service__details {
+  overflow: hidden;
+  text-align: center;
+}
+.service__images {
+  align-items: center;
+  display: flex;
+  height: auto;
+  margin-top: 80px;
+}
+
+.address__icon {
+  margin-bottom: 20px;
+  margin-right: 0;
+}
+.contact {
+  align-items: center;
+  display: block;
+  height: auto;
+  justify-content: center;
+  padding: 30px 0;
+  text-align: center;
+}
+.contact__wrap {
+  margin-bottom: 30px;
+  margin-top: -30px;
+}
+.package__details {
+  top: 0;
+}
+.package__details__inner {
+  padding: 18px 0 15px;
+}
+.select__option__inner.select__optionbg {
+  padding: 20px 17px;
+}
+.htc__port__filter__nav li {
+  margin-bottom: 15px;
+}
+.htc__port__filter__nav {
+  flex-wrap: wrap;
+}
+.view-mode {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contact-form-wrap {
+  right: 0;
+  top: 30px;
+}
+
+.contact-form-wrap {
+  padding: 25px;
+}
+.contact-box {
+  flex-wrap: wrap;
+}
+.contact-box input {
+  width: 100%;
+}
+.contact-box input + input {
+  margin-left: 0;
+  margin-top: 20px;
+}
+.information__inner {
+  margin-top: 40px;
+}
+.map__hover__info {
+  left: 0;
+  position: inherit;
+  top: 0;
+  transform: translateX(0px) translateY(0px);
+  z-index: 99999999;
+}
+.map__hover__inner {
+  padding: 50px 42px;
+}
+.package__list__inner h4 {
+  font-size: 18px;
+}
+.package__list__inner h6 {
+  font-size: 12px;
+  margin-bottom: 0;
+  margin-top: 2px;
+}
+.package__list__inner p {
+  font-size: 13px;
+  line-height: 17px;
+}
+.package__list__inner p span.list__price {
+  font-size: 16px;
+}
+.package__list__hover__info {
+  width: 100%;
+}
+.package__list__hover__info::before {
+  transform: skewX(0deg);
+  width: 124%;
+}
+.package__list__hover__details h4 {
+  font-size: 15px;
+}
+
+.package__list__hover__details h6 {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 4px;
+}
+.package__list__hover__details p {
+  margin-top: 0;
+  padding-right: 0;
+  display: none;
+}
+.package__list__hover__details {
+  left: 10px;
+  top: 6px;
+  transform: translateY(0%);
+}
+.rating li i {
+  font-size: 14px;
+}
+.rating {
+  margin-right: 16px;
+}
+.package--rating--btn {
+  margin-top: 5px;
+}
+.package__hover__inner {
+  padding: 21px 28px;
+}
+.package__hover__inner h4 {
+  margin-bottom: 5px;
+}
+.package__hover__inner h6 {
+  font-size: 13px;
+  margin-bottom: 3px;
+}
+.package__hover__inner p {
+  line-height: 20px;
+  margin-top: 8px;
+}
+
+.blog__hover__information {
+  position: inherit;
+}
+.blog__hover__information {
+  padding: 16px 8px 13px 24px;
+}
+.brand__list li + li {
+  padding-top: 24px;
+}
+.hast-count {
+  line-height: 65px;
+  margin: 0 0 20px;
+}
+.single__tour__box.name, .single__tour__box.email {
+  flex-wrap: wrap;
+}
+.single__tour__box.name input, .single__tour__box.email input {
+  width: 100%;
+}
+.single__tour__box input + input {
+  margin-top: 30px !important;
+}
+
+.book__tour__wrap {
+  padding: 0 22px;
+}
+.single__tour__box.option--select {
+  float: none;
+  padding-right: 0;
+  width: 100%;
+}
+.single__tour__box.option--select select {
+  width: 100%;
+}
+.single__tour__box.option--select select + select {
+  margin-left: 0;
+  margin-top: 30px;
+}
+.single__tour__box.date--book {
+  width: 100%;
+}
+.single__tour__box.date--book input {
+  margin-top: 30px;
+  width: 100%;
+  margin-left: 0;  
+}
+.single__tour__box.date--book {
+  padding-right: 0;
+}
+
+.overview__days::before {
+  position: inherit;
+}
+.single__overview:hover::before {
+  transform: scale(0);
+}
+.blog-meta > span {
+  padding-right: 2px;
+}
+.page li {
+  margin-right: 11px;
+}
+
+.page {
+  padding-bottom: 40px;
+}
+.single__overview {
+  flex-wrap: wrap;
+}
+.overview__days {
+  padding-right: 16px;
+}
+.single__overview .overview__days {
+  width: 30%;
+}
+.single__overview .overview__dewtails {
+  width: 70%;
+}
+.overview__dewtails {
+  padding-left: 0;
+  padding-right: 15px;
+}
+.single__overview .overview__thumd {
+  padding-left: 0;
+  width: 100%;
+  margin-top: 29px;
+}
+.tour__overview__inner::before {
+  position: inherit;
+}
+.package__off h2 span {
+  padding-left: 17px;
+}
+.package__off h2 span::before {
+  position: inherit;
+}
+.service__images {
+  padding-top: 20px;
+  position: inherit;
+  top: 100%;
+  transform: translateY(0px);
+}
+.welcome__inner {
+  padding: 38px 0;
+}
+.control__style--left .owl-dots {
+  left: 29px;
+  top: 89%;
+}
+.welcome__area .row {
+  display: inherit;
+}
+.welcome__inner {
+  padding: 38px 30px;
+}
+.view-mode li a::before {
+  transform: skewX(0);
+}
+.view-mode li:first-child a::before {
+  left: -14px;
+  width: 117%;
+}
+.view-mode li:last-child a::before {
+  right: -4%;
+  width: 108%;
+}
+.blog-info h3 {
+  line-height: 24px;
+}
+.welcome__images {
+  position: inherit;
+}
+div[style].wrapper.fixed-newslatter {
+  margin-bottom: 0 !important;
+}
+.fixed-newslatter .newsletter__area {
+  position: static;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.single__fact__flex {
+  width: 50%;
+}
+.package__thumb img {
+  width: 100%;
+}
+.package__details {
+  width: 398px;
+}
+.team__thumb img {
+  width: 100%;
+}
+.team__details {
+  width: 397px;
+}
+.distanation__thumb img {
+  width: 100%;
+}
+.testimoaial__details p::before {
+  left: -19px;
+}
+.package__list__hover__details {
+  left: 30px;
+  top: 20px;
+}
+.package__list__hover__details h6 {
+  margin-top: 12px;
+}
+.package__hover__inner {
+  top: 36px;
+}
+.package__hover__inner h4 {
+  margin-bottom: 16px;
+}
+.package__hover__inner h6 {
+  margin-bottom: 9px;
+}
+.package--rating--btn {
+  margin-top: 23px;
+}
+
+.hast-count {
+  float: none;
+  line-height: 60px;
+  margin: auto;
+  width: 25%;
+}
+.package__off h2 span {
+  font-size: 23px;
+}
+.package__off h2 span {
+  padding-left: 1px;
+}
+.brand__list li + li {
+  padding-top: 0;
+}
+.brand__list li a {
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+ 

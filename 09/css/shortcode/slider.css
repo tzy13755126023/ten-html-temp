@@ -1,0 +1,221 @@
+/*-----------------------------------------------------------------------------------
+  Template Name: Ramble Travel HTML Template.
+  Template URI: #
+  Description: Ramble is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
+  Author: HasTech
+  Author URI: https://themeforest.net/user/hastech/portfolio
+  Version: 1.0
+-----------------------------------------------------------------------------------*/
+/*
+  font-family: 'Open Sans', sans-serif;
+*/
+
+/*---------------------
+Slider images
+-----------------------*/
+.slider__bg--1,
+.slider__bg--2 ,
+.slider__bg--3,
+.slider__bg--4 {
+  background-attachment: fixed;
+  background-clip: initial;
+  background-color: rgba(0, 0, 0, 0);
+  background-origin: initial;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+.slider__bg--1 {
+  background: rgba(0, 0, 0, 0) url("../../images/slider/bg/1.jpg") no-repeat scroll 0 0 / cover ;
+}
+.slider__bg--2 {
+  background: rgba(0, 0, 0, 0) url("../../images/slider/bg/2.jpg") no-repeat scroll 0 0 / cover ;
+}
+.slider__bg--3 {
+  background: rgba(0, 0, 0, 0) url("../../images/slider/bg/3.jpg") no-repeat scroll 0 0 / cover ;
+}
+.slider__bg--4 {
+  background: rgba(0, 0, 0, 0) url("../../images/slider/bg/4.jpg") no-repeat scroll 0 0 / cover ;
+}
+
+/**----------------------------------
+! 8. Background variation 
+-------------------------------------------**/
+.slider__full--screen {
+  height: 100vh;
+  display: block;
+}
+.slider__position--relative {
+    position: relative;
+}
+.slider-activetion-wrap, 
+.slider-activetion-wrap .owl-stage-outer, 
+.slider-activetion-wrap .owl-item, 
+.slider-activetion-wrap .slide, 
+.slider-activetion-wrap .owl-stage {
+  height: 100%;
+}
+.slide {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.slide__align--center {
+  padding-bottom: 125px;
+  padding-top: 85px;
+}
+
+/*------------------------------------------
+      Slider Inner
+---------------------------------------*/
+
+.slider__inner h2 {
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.slider__inner h1 {
+    font-size: 60px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.slider__inner {
+    text-align: center;
+}
+
+
+
+/*---------------------------------
+    Button Style
+-----------------------------------*/
+.rm__btn {
+    background: #ffb300 none repeat scroll 0 0;
+    border: 1px solid #ffb300;
+    border-radius: 20px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 26px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.rm__btn:hover {
+    background: transparent none repeat scroll 0 0;
+    color: #fff;
+}
+.rm__btn.btn--transparent {
+    background: transparent none repeat scroll 0 0;
+}
+.rm__btn.btn--transparent:hover {
+    background: #ffb300 none repeat scroll 0 0;
+    border: 1px solid #ffb300;
+}
+.slider__btn {
+    margin-top: 60px;
+}
+
+
+/*---------------------------------------------------
+   with slider animation
+------------------------------------------------------*/
+.owl-item.active .htc__slider__animation--center .slider__inner h1, 
+.owl-item.active .htc__slider__animation--center .slider__inner h2, 
+.owl-item.active .htc__slider__animation--center .slider__inner p, 
+.owl-item.active .htc__slider__animation--center .slider__inner .slider__btn{
+  animation: 1500ms ease-in-out 0s normal both 1 running fadeInUp;
+}
+
+
+.owl-item.active .htc__slider__animation--left .slider__inner h1, 
+.owl-item.active .htc__slider__animation--left .slider__inner h2, 
+.owl-item.active .htc__slider__animation--left .slider__inner p, 
+.owl-item.active .htc__slider__animation--left .slider__inner .slider__btn{
+  animation: 1500ms ease-in-out 0s normal both 1 running fadeInRight;
+}
+
+.owl-item.active .htc__slider__animation--right .slider__inner h1,
+.owl-item.active .htc__slider__animation--right .slider__inner h2, 
+.owl-item.active .htc__slider__animation--right .slider__inner p, 
+.owl-item.active .htc__slider__animation--right .slider__inner .slider__btn{
+  animation: 1500ms ease-in-out 0s normal both 1 running fadeInLeft;
+}
+
+
+.owl-item.active .htc__slider__animation--center .slider__inner h2,
+.owl-item.active .htc__slider__animation--right .slider__inner h2,
+.owl-item.active .htc__slider__animation--left .slider__inner h2 {
+    animation-delay: 1000ms;
+}
+
+.owl-item.active .htc__slider__animation--center .slider__inner h1,
+.owl-item.active .htc__slider__animation--right .slider__inner h1,
+.owl-item.active .htc__slider__animation--left .slider__inner h1 {
+    animation-delay: 2000ms;
+}
+.owl-item.active .htc__slider__animation--center .slider__inner p,
+.owl-item.active .htc__slider__animation--right .slider__inner p,
+.owl-item.active .htc__slider__animation--left .slider__inner p {
+    animation-delay: 2000ms;
+}
+.owl-item.active .htc__slider__animation--center .slider__inner .slider__btn,
+.owl-item.active .htc__slider__animation--right .slider__inner .slider__btn,
+.owl-item.active .htc__slider__animation--left .slider__inner .slider__btn{
+    animation-delay: 3000ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Slider Dots style */
+
+.control__style--left .owl-dots {
+  left: 100px;
+  padding-top: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.control__style--right .owl-dots {
+  right: 100px;
+  left: auto;
+  padding-top: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.control__style--left .owl-dots .owl-dot, 
+.control__style--right .owl-dots .owl-dot {
+  display: block;
+  margin: 5px 0;
+  padding: 7px 0;
+  position: relative;
+}
+.control__style--left .owl-dots .owl-dot span, 
+.control__style--right .owl-dots .owl-dot span {
+  background: #fff none repeat scroll 0 0;
+  bottom: 0;
+  display: block;
+  height: 4px;
+  position: absolute;
+  transition: all 0.3s ease 0s;
+  width: 10px;
+}
+.control__style--left .owl-dots .owl-dot.active span, 
+.control__style--right .owl-dots .owl-dot.active span {
+  background: #ffb300 none repeat scroll 0 0;
+  width: 30px;
+}

@@ -1,0 +1,744 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Services // HTML Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
+
+    <!-- All css files are included here. -->
+    <!-- Bootstrap fremwork main css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- This core.css file contents all plugings css file. -->
+    <link rel="stylesheet" href="css/core.css">
+    <!-- Template shortcodes/elements style -->
+    <link rel="stylesheet" href="css/shortcode/shortcodes.css">
+    <!-- Template main style -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- User style -->
+    <link rel="stylesheet" href="css/custom.css">
+
+
+    <!-- Modernizr JS -->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->  
+
+    <!-- Body main wrapper start -->
+    <div class="wrapper fixed-newslatter">
+        <!-- Start Header Style -->
+        <header id="header" class="header">
+            <div id="sticky-header-with-topbar" class="container-fluid hidden-xs sticky__header">
+                <div class="row">
+                    <div class="col-md-2 col-lg-2 col-sm-12">
+                        <div class="logo">
+                                <a href="index.html"><img src="images/logo/ramble.png" alt="logo"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-12 col-lg-8">
+                        <div class="header__top">
+                            <div class="header__top__left">
+                                <p><span class="text-theme">Contact:</span><a href="#">0088-234-675-827</a></p>
+                                <p class="hidden-sm"><span class="text-theme">Opening Hours:</span> Mon - Sat 8.00 - 18.00. Sunday CLOSED</p>
+                            </div>
+                            <div class="header__top__right">
+                                <ul class="login__regester">
+                                    <li><a class="modal-view button" href="#" data-toggle="modal" data-target="#loginform"><i class="zmdi zmdi-account"></i>Login</a></li>
+                                    <li><a  class="modal-view button" href="#" data-toggle="modal" data-target="#registrationform"><i class="zmdi zmdi-account-add"></i>Register</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__bottom">
+                            <div class="mainmenu__area">
+                                <nav class="mainmenu__nav">
+                                    <ul class="main__menu">
+                                        <li class="drop"><a href="index.html">home</a>
+                                            <ul class="dropdown">
+                                                <li><a href="index-slider.html">home 2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="about-us.html">about</a></li>
+                                        <li><a href="service.html">services</a></li>
+                                        <li class="drop"><a href="#">pages</a>
+                                            <ul class="dropdown">
+                                                <li><a href="package-list.html">package list</a></li>
+                                                <li><a href="package-grid.html">package grid</a></li>
+                                                <li><a href="book-the-tour.html">book the tour</a></li>
+                                                <li><a href="tour-details.html">tour details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="gallery.html">gallery</a></li>
+                                        <li class="drop"><a href="blog-details.html">blog</a>
+                                            <ul class="dropdown">
+                                                <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                                                <li><a href="blog-right-sidebar.html">Blog right Sidebar</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact-us.html">contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-sm-2 hidden-sm">
+                        <ul class="social__icon icon--position">
+                            <li><a href="https://www.linkedin.com/"><i class="zmdi zmdi-linkedin"></i></a></li>
+                            <li><a href="https://www.pinterest.com/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                            <li><a href="https://www.tumblr.com/"><i class="zmdi zmdi-tumblr"></i></a></li>
+                            <li><a href="https://plus.google.com/"><i class="zmdi zmdi-google"></i></a></li>
+                            <li><a href="https://www.facebook.com/"><i class="zmdi zmdi-facebook"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile-menu-area start -->
+            <div class="mobile-menu-area hidden-md hidden-lg hidden-sm">
+                <div class="fluid-container mobile-menu-container">
+                    <div class="mobile-logo"><a href="index.html"><img src="images/logo/ramble.png" alt="Mobile logo"></a></div>
+                    <div class="mobile-menu clearfix">
+                        <nav id="mobile_dropdown">
+                            <ul>
+                                <li><a href="index.html">home</a></li>
+                                <li><a href="index-slider.html">home 2</a></li>
+                                <li><a href="about-us.html">about</a></li>
+                                <li class="drop"><a href="blog-details.html">blog</a>
+                                <li><a href="package-list.html">package list</a></li>
+                                <li><a href="service.html">services</a></li>
+                                <li><a href="package-grid.html">package grid</a></li>
+                                <li><a href="gallery.html">gallery</a></li>
+                                <li><a href="book-the-tour.html">book the tour</a></li>
+                                <li><a href="tour-details.html">tour details</a></li>
+                                <li><a href="contact-us.html">contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>  
+                </div>
+            </div>
+            <!-- Mobile-menu-area End -->
+        </header>
+        <!-- End Header Style -->
+        <!-- Start Bradcaump area -->
+        <div class="ht__bradcaump__area bg-5" data-black-overlay="7">
+            <div class="ht__bradcaump__wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="bradcaump__inner text-center">
+                                <h2 class="bradcaump-title">Services</h2>
+                                <nav class="bradcaump-inner">
+                                  <a class="breadcrumb-item" href="index.html">Home</a>
+                                  <span class="brd-separetor"><i class="zmdi zmdi-chevron-right"></i><i class="zmdi zmdi-chevron-right"></i></span>
+                                  <span class="breadcrumb-item active">Services</span>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Bradcaump area -->
+        <!-- Start Service Area -->
+        <section class="service__area ptb-100 bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                        <div class="section__title text-center">
+                            <h2 class="title__line">our <span class="text-theme">services</span></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utllaf </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="service__wrap clearfix mt-50">
+                        <div class="col-md-12 col-lg-6 col-sm-12 col-xs-12">
+                            <div class="service__inner">
+                                <!-- Start Single Service -->
+                                <div class="service">
+                                    <div class="service__icon">
+                                        <i class="flaticon-telephone icon"></i>
+                                    </div>
+                                    <div class="service__details">
+                                        <h4><a href="#">Online Booking Services</a></h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dliluptatem sequi nesciunt. Neque porro quisquam est</p>
+                                    </div>
+                                </div>
+                                <!-- End Single Service -->
+                                <!-- Start Single Service -->
+                                <div class="service">
+                                    <div class="service__icon">
+                                        <i class="flaticon-shape icon"></i>
+                                    </div>
+                                    <div class="service__details">
+                                        <h4><a href="#">Book Cheap Online</a></h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dliluptatem sequi nesciunt. Neque porro quisquam est</p>
+                                    </div>
+                                </div>
+                                <!-- End Single Service -->
+                                <!-- Start Single Service -->
+                                <div class="service">
+                                    <div class="service__icon">
+                                        <i class="flaticon-sleeping icon"></i>
+                                    </div>
+                                    <div class="service__details">
+                                        <h4><a href="#">Hotel Booking</a></h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dliluptatem sequi nesciunt. Neque porro quisquam est</p>
+                                    </div>
+                                </div>
+                                <!-- End Single Service -->
+                                <!-- Start Single Service -->
+                                <div class="service">
+                                    <div class="service__icon">
+                                        <i class="flaticon-transport icon"></i>
+                                    </div>
+                                    <div class="service__details">
+                                        <h4><a href="#">Taxi Cap Booking</a></h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dliluptatem sequi nesciunt. Neque porro quisquam est</p>
+                                    </div>
+                                </div>
+                                <!-- End Single Service -->
+                                <!-- Start Single Service -->
+                                <div class="service">
+                                    <div class="service__icon">
+                                        <i class="flaticon-tool icon"></i>
+                                    </div>
+                                    <div class="service__details">
+                                        <h4><a href="#">Amazing Tour</a></h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dliluptatem sequi nesciunt. Neque porro quisquam est</p>
+                                    </div>
+                                </div>
+                                <!-- End Single Service -->
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-6 col-sm-12 col-xs-12 service-images">
+                            <img src="images/others/service/1.png" alt="service images">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service__images service__feature_images">
+                <img src="images/others/service/1.png" alt="service images">
+            </div>
+        </section>
+        <!-- End Service Area -->
+        <!-- Start Funfact Area -->
+        <section class="funfact__area ptb-90 bg-1" data-black-overlay="6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                        <div class="funfact__wrap">
+                            <!-- Start Single Fact -->
+                            <div class="single__fact__flex">
+                                <div class="fact__icon">
+                                    <i class="flaticon-shape icon"></i>
+                                </div>
+                                <div class="funfact__count__inner">
+                                    <div class="fact__count">
+                                        <span class="count">94604</span>
+                                    </div>
+                                </div>
+                                <div class="fact__title">
+                                    <h2>customers</h2>
+                                </div>
+                            </div>
+                            <!-- End Single Fact -->
+                            <!-- Start Single Fact -->
+                            <div class="single__fact__flex">
+                                <div class="fact__icon">
+                                    <i class="flaticon-island-with-palm-trees icon"></i>
+                                </div>
+                                <div class="funfact__count__inner">
+                                    <div class="fact__count">
+                                        <span class="count">1020</span>
+                                    </div>
+                                </div>
+                                <div class="fact__title">
+                                    <h2>destination</h2>
+                                </div>
+                            </div>
+                            <!-- End Single Fact -->
+                            <!-- Start Single Fact -->
+                            <div class="single__fact__flex">
+                                <div class="fact__icon">
+                                    <i class="flaticon-internet icon"></i>
+                                </div>
+                                <div class="funfact__count__inner">
+                                    <div class="fact__count">
+                                        <span class="count">25465</span>
+                                    </div>
+                                </div>
+                                <div class="fact__title">
+                                    <h2>tours</h2>
+                                </div>
+                            </div>
+                            <!-- End Single Fact -->
+                            <!-- Start Single Fact -->
+                            <div class="single__fact__flex">
+                                <div class="fact__icon">
+                                    <i class="flaticon-business-man icon"></i>
+                                </div>
+                                <div class="funfact__count__inner">
+                                    <div class="fact__count">
+                                        <span class="count">15</span>
+                                    </div>
+                                </div>
+                                <div class="fact__title">
+                                    <h2>tour types</h2>
+                                </div>
+                            </div>
+                            <!-- End Single Fact -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Funfact Area -->
+        <!-- Start our Team Area -->
+        <section class="team__area bg-white pt-100 pb-70">
+            <div class="container">
+                <!-- Start Our Section Title area -->
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                        <div class="section__title text-center">
+                            <h2 class="title__line">meet <span class="text-theme">the guys</span></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt utllaf </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Our Section Title area -->
+                <div class="row">
+                    <div class="team__wrap clearfix mt-50 xs--mt--20">
+                        <!-- Start Single Team -->
+                        <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+                            <div class="team">
+                                <div class="team__thumb bg-theme">
+                                    <img src="images/team/2.jpg" alt="team images">
+                                </div>
+                                <div class="team__details">
+                                    <div class="team__details__inner">
+                                        <h4><a href="#">sam smith</a></h4>
+                                        <h6>Chief CEO Officer</h6>
+                                        <ul class="social__icon icon--position--center">
+                                            <li><a href="https://www.linkedin.com/"><i class="zmdi zmdi-linkedin"></i></a></li>
+                                            <li><a href="https://www.pinterest.com/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                            <li><a href="https://www.tumblr.com/"><i class="zmdi zmdi-tumblr"></i></a></li>
+                                            <li><a href="https://plus.google.com/"><i class="zmdi zmdi-google"></i></a></li>
+                                            <li><a href="https://www.facebook.com/"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Team -->
+                        <!-- Start Single Team -->
+                        <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+                            <div class="team">
+                                <div class="team__thumb bg-theme">
+                                    <img src="images/team/1.jpg" alt="team images">
+                                </div>
+                                <div class="team__details">
+                                    <div class="team__details__inner">
+                                        <h4><a href="#">jake plain</a></h4>
+                                        <h6>Chief CEO Officer</h6>
+                                        <ul class="social__icon icon--position--center">
+                                            <li><a href="https://www.linkedin.com/"><i class="zmdi zmdi-linkedin"></i></a></li>
+                                            <li><a href="https://www.pinterest.com/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                            <li><a href="https://www.tumblr.com/"><i class="zmdi zmdi-tumblr"></i></a></li>
+                                            <li><a href="https://plus.google.com/"><i class="zmdi zmdi-google"></i></a></li>
+                                            <li><a href="https://www.facebook.com/"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Team -->
+                        <!-- Start Single Team -->
+                        <div class="col-md-4 col-lg-4 hidden-sm col-xs-12">
+                            <div class="team">
+                                <div class="team__thumb bg-theme">
+                                    <img src="images/team/3.jpg" alt="team images">
+                                </div>
+                                <div class="team__details">
+                                    <div class="team__details__inner">
+                                        <h4><a href="#">sam smith</a></h4>
+                                        <h6>Chief CEO Officer</h6>
+                                        <ul class="social__icon icon--position--center">
+                                            <li><a href="https://www.linkedin.com/"><i class="zmdi zmdi-linkedin"></i></a></li>
+                                            <li><a href="https://www.pinterest.com/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                            <li><a href="https://www.tumblr.com/"><i class="zmdi zmdi-tumblr"></i></a></li>
+                                            <li><a href="https://plus.google.com/"><i class="zmdi zmdi-google"></i></a></li>
+                                            <li><a href="https://www.facebook.com/"><i class="zmdi zmdi-facebook"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Team -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End our Team Area -->
+        <!-- Start Testimonial Area -->
+        <section class="testimonial__area ptb-100 bg-3" data-black-overlay="7">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                        <div class="testimonial__outer">
+                            <div class="testimonial__carousel__active owl-carousel owl-theme">
+                                <!-- Start Single Testimonial Area -->
+                                <div class="testimoaial__wrap">
+                                    <div class="testimonial__inner text-center">
+                                        <div class="tesimoaial__thumb">
+                                            <img src="images/test/client/1.png" alt="testimonial images">
+                                        </div>
+                                        <div class="testimoaial__details">
+                                            <p>Lorem ipsum dolor sit amet, consecteitur adipisicing elit, sedgh do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                            <h4><a href="#">NIPA Bali</a></h4>
+                                            <h6>ceo</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Single Testimonial Area -->
+                                <!-- Start Single Testimonial Area -->
+                                <div class="testimoaial__wrap">
+                                    <div class="testimonial__inner text-center">
+                                        <div class="tesimoaial__thumb">
+                                            <img src="images/test/client/1.png" alt="testimonial images">
+                                        </div>
+                                        <div class="testimoaial__details">
+                                            <p>Lorem ipsum dolor sit amet, consecteitur adipisicing elit, sedgh do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                            <h4><a href="#">NIPA Bali</a></h4>
+                                            <h6>ceo</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Single Testimonial Area -->
+                                <!-- Start Single Testimonial Area -->
+                                <div class="testimoaial__wrap">
+                                    <div class="testimonial__inner text-center">
+                                        <div class="tesimoaial__thumb">
+                                            <img src="images/test/client/1.png" alt="testimonial images">
+                                        </div>
+                                        <div class="testimoaial__details">
+                                            <p>Lorem ipsum dolor sit amet, consecteitur adipisicing elit, sedgh do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                            <h4><a href="#">NIPA Bali</a></h4>
+                                            <h6>ceo</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Single Testimonial Area -->
+                                <!-- Start Single Testimonial Area -->
+                                <div class="testimoaial__wrap">
+                                    <div class="testimonial__inner text-center">
+                                        <div class="tesimoaial__thumb">
+                                            <img src="images/test/client/1.png" alt="testimonial images">
+                                        </div>
+                                        <div class="testimoaial__details">
+                                            <p>Lorem ipsum dolor sit amet, consecteitur adipisicing elit, sedgh do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                            <h4><a href="#">NIPA Bali</a></h4>
+                                            <h6>ceo</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Single Testimonial Area -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Testimonial Area -->
+        <!-- Start Brand Area -->
+        <div class="brand__area ptb-100 bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                        <ul class="brand__list bg-white">
+                            <li><a href="#"><img src="images/brand/1.png" alt="brand images"></a></li>
+                            <li><a href="#"><img src="images/brand/2.png" alt="brand images"></a></li>
+                            <li><a href="#"><img src="images/brand/3.png" alt="brand images"></a></li>
+                            <li><a href="#"><img src="images/brand/4.png" alt="brand images"></a></li>
+                            <li><a href="#"><img src="images/brand/1.png" alt="brand images"></a></li>
+                            <li class="hidden-md hidden-lg"><a href="#"><img src="images/brand/1.png" alt="brand images"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Brand Area -->
+        <!-- Start Contact Area -->
+        <div class="contact__address bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="contact__wrap clearfix">
+                        <!-- Start Single Address -->
+                        <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+                            <div class="contact bg-cat-1">
+                                <div class="address__icon">
+                                    <i class="zmdi zmdi-pin"></i>
+                                </div>
+                                <div class="address__details">
+                                    <p>Alcatraz Island Photo Albf dhaka ,<br>New York</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Address -->
+                        <!-- Start Single Address -->
+                        <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+                            <div class="contact bg-cat-1">
+                                <div class="address__icon">
+                                    <i class="zmdi zmdi-email"></i>
+                                </div>
+                                <div class="address__details">
+                                    <p><a href="mailto:www.yourmail.com">www.yourmail.com</a></p>
+                                    <p><a href="mailto:www.yourmail.com">www.yourmail.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Address -->
+                        <!-- Start Single Address -->
+                        <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+                            <div class="contact bg-cat-1">
+                                <div class="address__icon">
+                                    <i class="zmdi zmdi-phone"></i>
+                                </div>
+                                <div class="address__details">
+                                    <p><a href="phone:+66025644424857">+660 256444 24857</a></p>
+                                    <p><a href="phone:+66025644424857">+660 256444 24857</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Address -->
+                        <!-- Start Single Address -->
+                        <div class="hidden-md hidden-lg col-sm-6 hidden-xs">
+                            <div class="contact bg-cat-1">
+                                <div class="address__icon">
+                                    <i class="zmdi zmdi-phone"></i>
+                                </div>
+                                <div class="address__details">
+                                    <p><a href="phone:+66025644424857">+660 256444 24857</a></p>
+                                    <p><a href="phone:+66025644424857">+660 256444 24857</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Address -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Contact Area -->
+        <!-- Start Footer Area -->
+        <footer class="footer__area bg-4">
+            <div class="footer__top ptb-70" data-black-overlay="8">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer__wrap clearfix">
+                            <!-- Start Single Footer -->
+                            <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
+                                <div class="footer__wedget">
+                                    <div class="footer__logo">
+                                        <a href="#">
+                                            <img src="images/logo/ramble.png" alt="logo">
+                                        </a>
+                                    </div>
+                                    <p class="footer__dtl">Lorem ipsum dolor sit amet, consectetur adipisicing ejlit, sed do eiusmod tempor incididunt ut labore egtt dolore magna aliqua. Ut enim ad minim veniam, quisgt nostrud exercitation ullamco laboris.</p>
+                                    <ul class="footer__social__icon">
+                                        <li><a href="https://www.linkedin.com/"><i class="zmdi zmdi-linkedin"></i></a></li>
+                                        <li><a href="https://www.pinterest.com/"><i class="zmdi zmdi-pinterest"></i></a></li>
+                                        <li><a href="https://www.tumblr.com/"><i class="zmdi zmdi-tumblr"></i></a></li>
+                                        <li><a href="https://plus.google.com/"><i class="zmdi zmdi-google"></i></a></li>
+                                        <li><a href="https://www.facebook.com/"><i class="zmdi zmdi-facebook"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- End Single Footer -->
+                            <!-- Start Single Footer -->
+                            <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 xs--mt--40">
+                                <div class="footer__wedget">
+                                    <div class="footer__inner">
+                                        <h2 class="footer__title">latest tweets</h2>
+                                        <!-- Start tweets Feed -->
+                                        <div class="tweets">
+                                            <div class="tweets__icon">
+                                                <i class="zmdi zmdi-twitter"></i>
+                                            </div>
+                                            <div class="tweets__details">
+                                                <p>Lorem ipsum dolor sit am ectetur adip isicing elit, sed eiusmod ipsum dolo hgtfed</p>
+                                                <a href="#">https://tweeterhrad.com</a>
+                                            </div>
+                                        </div>
+                                        <!-- End tweets Feed -->
+                                        <!-- Start tweets Feed -->
+                                        <div class="tweets">
+                                            <div class="tweets__icon">
+                                                <i class="zmdi zmdi-twitter"></i>
+                                            </div>
+                                            <div class="tweets__details">
+                                                <p>Lorem ipsum dolor sit am ectetur adip isicing elit, sed eiusmod ipsum dolo hgtfed</p>
+                                                <a href="#">https://tweeterhrad.com</a>
+                                            </div>
+                                        </div>
+                                        <!-- End tweets Feed -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Footer -->
+                            <!-- Start Single Footer -->
+                            <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 xs--mt--40">
+                                <div class="footer__wedget sm--mt--40">
+                                    <div class="footer__inner">
+                                        <h2 class="footer__title">tag</h2>
+                                        <ul class="tag_menu">
+                                            <li><a href="#">Adventure</a></li>
+                                            <li><a href="#">Traveling</a></li>
+                                            <li><a href="#">Countries</a></li>
+                                            <li><a href="#">Beach</a></li>
+                                            <li><a href="#">Honeymoon</a></li>
+                                            <li><a href="#">Island</a></li>
+                                            <li><a href="#">Parks</a></li>
+                                            <li><a href="#">Family</a></li>
+                                            <li><a href="#">Travel</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Footer -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright__arera" data-black-overlay="9">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+                            <div class="copyright__inner">
+                                <div class="copyright__text">
+                                    <p>Copyright © 2017 All Right Reserved.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer Area -->
+        <!-- Start Newsletter Letter -->
+        <div class="newsletter__area bg-cat-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                        <div class="newsletter__wrap">
+                            <div class="newsletter__inner">
+                                <h4>join the newsletter</h4>
+                                <input type="email" placeholder="Enter your E-mail">
+                                <div class="news__letter__btn">
+                                    <a class="rm__btn btn--transparent" href="#">subcribes</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Newsletter Letter -->
+    </div>
+    <!-- Body main wrapper end -->
+
+    <!--Start of Login Form-->
+    <div id="login__form__wrap">
+        <!-- Modal -->
+        <div class="modal fade" id="loginform" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="zmdi zmdi-close"></i></span></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-pop-up-content">
+                            <div class="text-center">
+                                <h2 class="modal-title">Login Hare</h2>
+                            </div>
+                            <form method="post" action="#">
+                                <div class="form-box">
+                                    <input type="text" name="username" placeholder="User Name">
+                                    <input type="password" name="pass" placeholder="Password">
+                                </div>
+                                <div class="clearfix">
+                                    <span class="remember pull-left">
+                                      <input type="checkbox" id="pass_chack" value="pass_remb">
+                                      <label for="pass_chack">Remember Me</label>
+                                    </span>
+                                    <span class="pull-right"><a href="#">Forget Password?</a></span>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="text-uppercase login__btn">login now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>  
+                </div>  
+            </div>
+        </div>
+    </div>
+    <!--End of Login Form-->
+
+    <!--Start of Registration Form-->
+    <div id="register__form__wrap">
+        <!-- Modal -->
+        <div class="modal fade" id="registrationform" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="zmdi zmdi-close"></i></span></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-pop-up-content">
+                            <div class="area-title text-center">
+                                <h2>Register Now</h2>
+                            </div>
+                            <form method="post" action="#">
+                                <div class="form-box">
+                                    <input type="text" name="username" placeholder="Name">
+                                    <input type="text" name="email" placeholder="Email">
+                                    <input type="password" name="pass" placeholder="Password">
+                                    <input type="text" name="age" placeholder="Age">
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="text-uppercase register__btn">register</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>  
+                </div>  
+            </div>
+        </div>
+    </div>
+    <!--End of Registration Form-->
+
+    <!-- Placed js at the end of the document so the pages load faster -->
+
+    <!-- jquery latest version -->
+    <script src="js/vendor/jquery-1.12.0.min.js"></script>
+    <!-- Bootstrap framework js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All js plugins included in this file. -->
+    <script src="js/plugins.js"></script>
+    <script src="js/slick.min.js"></script>
+    <!-- Waypoints.min.js. -->
+    <script src="js/waypoints.min.js"></script>
+    <!-- Main js file that contents all jQuery plugins activation. -->
+    <script src="js/main.js"></script>
+
+</body>

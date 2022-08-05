@@ -1,0 +1,160 @@
+/*-----------------------------------------------------------------------------------
+
+
+
+-----------------------------------------------------------------------------------*/
+
+
+/*************************
+		General
+*************************/
+
+
+/** selection **/
+
+*::-moz-selection {
+    background: #e91e63;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #e91e63;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #e91e63;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+/** buttton **/
+
+
+/*************************
+		 button
+*************************/
+
+a.button {
+    background-color: #e91e63;
+}
+
+a.button.button-white {
+    color: #e91e63;
+}
+
+a.button.button-white i {
+    color: #e91e63;
+}
+
+a.button.button-white span {
+    color: #e91e63;
+}
+
+a.button.button-grey {
+    color: #e91e63;
+}
+
+a.button.button-grey i {
+    color: #e91e63;
+}
+
+a.button.button-grey span {
+    color: #e91e63;
+}
+
+a.button.button-black {
+    color: #e91e63;
+}
+
+a.button-border span {
+    color: #e91e63;
+    border: 1px solid #e91e63;
+}
+
+a.button-border span:hover {
+    border-color: #e91e63;
+}
+
+a.button-border-white span:hover {
+    color: #e91e63;
+}
+
+a.button-small {
+    background-color: #e91e63;
+}
+
+.share .share-button {
+    background: #e91e63;
+}
+
+a.button-border span:hover,
+.faq a.button-border span:hover,
+.careers-from .button-border span:hover,
+.login-2-social li a.fb:hover,
+.login-2-social li a.twitter:hover,
+.login-2-social li a.pinterest:hover {
+    box-shadow: -400px 0 0 #e91e63 inset;
+}
+
+
+/** tooltip **/
+
+.socile-icon-tooltip .tooltip:after,
+.socile-icon-tooltip [data-tooltip]:after {
+    background-color: #e91e63;
+}
+
+.socile-icon-tooltip .tooltip:before,
+.tooltip-top:before {
+    border-color: #e91e63;
+}
+
+.socile-icon-tooltip [data-tooltip]:before,
+.tooltip::before,
+.socile-icon-tooltip .tooltip-top::before {
+    border-top-color: #e91e63;
+}
+
+
+/*Home page background*/
+
+.section-title-2 .title-line::before,
+.portfolio-info,
+.services-text-box,
+.home-2 .portfolio-item .portfolio-overlay a:hover,
+.home-2 .footer,
+.home-3 .portfolio-item,
+.feature-9-bg-2,
+.home-3 .footer .input-group-btn button,
+.home-3 .footer .tags ul li a:hover,
+.owl-carousel-12.owl-theme .owl-dots .owl-dot.active span,
+.owl-carousel-12.owl-theme .owl-dots .owl-dot:hover span,
+.home-4 .our-blog .blog-box-info,
+.home-4 .footer .tags ul li a:hover,
+.built-tab .tabs li span,
+.home-5 .contact {
+    background: #e91e63;
+}
+
+.separator::before,
+.social-icon ul li a
+ {
+    background: #e91e63;
+}
+.social-icon ul li a:hover{
+	background: #323232 none repeat scroll 0 0;
+}
+/*************************
+		 Color
+*************************/
+
+
+/** Color **/
+
+a:hover, a,  .separator i, button{
+    color: #e91e63;
+}

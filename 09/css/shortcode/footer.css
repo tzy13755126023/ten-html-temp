@@ -1,0 +1,164 @@
+/*-----------------------------------------------------------------------------------
+  Template Name: Ramble Travel HTML Template.
+  Template URI: #
+  Description: Ramble is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
+  Author: HasTech
+  Author URI: https://themeforest.net/user/hastech/portfolio
+  Version: 1.0
+-------------------------------------------------------------------------------------*/
+/*
+  font-family: 'Open Sans', sans-serif;
+*/
+/*-----------------------------
+	Footer Default
+------------------------------*/
+
+.footer__logo a {
+    display: block;
+}
+.footer__logo {
+    margin-bottom: 44px;
+}
+.footer__social__icon {
+    display: flex;
+    margin-top: 40px;
+}
+.footer__social__icon li + li {
+    margin-left: 14px;
+}
+.footer__social__icon li a i {
+    border: 1px solid #fff;
+    color: #ffb300;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    width: 40px;
+}
+.footer__social__icon li a:hover i {
+    background: #ffb300 none repeat scroll 0 0;
+    border: 1px solid #ffb300;
+    color: #fff;
+}
+.footer__title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 42px;
+    text-transform: uppercase;
+}
+.tweets {
+    display: flex;
+}
+.tweets__icon i {
+    color: #ffb300;
+    font-size: 18px;
+    padding-top: 12px;
+}
+.tweets__icon {
+    margin-right: 20px;
+}
+.tweets__details a {
+    color: #ffb300;
+    font-size: 14px;
+}
+.tweets + .tweets {
+    margin-top: 40px;
+}
+.tag_menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -9px;
+    margin-right: -9px;
+}
+.tag_menu li a {
+    border: 1px solid #fff;
+    border-radius: 22px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 25px;
+    text-align: center;
+}
+.tag_menu li {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    width: 33.33%;
+}
+.tag_menu li a:hover {
+    background: #ffb300 none repeat scroll 0 0;
+    border: 1px solid #ffb300;
+}
+.copyright__inner {
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+}
+.copyright__text p {
+    color: #fff;
+    text-transform: capitalize;
+}
+.copyright__text p a {
+    color: #ffb300;
+    padding: 0 7px;
+    text-transform: uppercase;
+}
+.newsletter__inner input[type="text"],
+.newsletter__inner input[type="email"],
+.newsletter__inner input[type="password"] {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: transparent none repeat scroll 0 0;
+  border-color: currentcolor currentcolor #909090;
+  border-image: none;
+  border-style: none none solid;
+  border-width: 0 0 1px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  width: 290px;
+}
+
+.newsletter__inner input[type="text"]:focus,
+.newsletter__inner input[type="email"]:focus,
+.newsletter__inner input[type="password"]:focus {
+  color: #fff;
+}
+.newsletter__inner input:focus::-webkit-input-placeholder, 
+.newsletter__inner input:focus::-moz-placeholder, 
+.newsletter__inner input:focus::-ms-input-placeholder { 
+  color: #fff;
+}
+
+
+
+.newsletter__inner {
+    align-items: center;
+    display: flex;
+    height: 206px;
+    justify-content: space-around;
+}
+.newsletter__inner h4 {
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+
+
+
+/*Newslatter fixed */
+.fixed-newslatter .newsletter__area{
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  z-index: -99999;
+}
